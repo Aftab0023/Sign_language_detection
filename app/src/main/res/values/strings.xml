@@ -9,4 +9,9 @@ This system leverages advancements in computer vision, machine learning, and dee
 sign language gestures. The objective is to provide a technological solution that enables real-time detection and
 translation of sign language, thereby facilitating communication between individuals who use sign language and those
 who may not be fluent in it.</string>
+    
+    <string name="learn">ASL contains the signs for 26 letters and has fingerspelling for the 10 numbers, as shown above.Usually, this is the first and foremost learning exercise for beginners trying to learn ASL.
+        Once the letters and numbers are clearly understood, fingerspelling is used to get to proper nouns, names, places, etc., and then for moving to advanced understanding.
+The ABC sign language helps anyone simultaneously sign multiple letters and words and form meaningful sentences
+    </string>
 </resources>
