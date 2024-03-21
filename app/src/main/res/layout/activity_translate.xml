@@ -47,14 +47,21 @@
             android:id="@+id/add_button"
             android:textAllCaps="false"/>
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_space_bar_24"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/space"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Speech"
             android:textSize="20dp"
             android:id="@+id/text_to_speech"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:textAllCaps="false"/>
 
         <Button
@@ -65,13 +72,6 @@
             android:id="@+id/clear_button"
             android:textAllCaps="false"/>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:background="#E38686"
-            android:layout_margin="10dp"
-            android:id="@+id/space"
-            android:text="--"/>
 
     </LinearLayout>
 
