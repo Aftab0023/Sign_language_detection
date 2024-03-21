@@ -32,6 +32,7 @@
             android:layout_marginTop="24dp"
             android:text="ASL Translator"
             android:textSize="40dp"
+            android:textColor="@color/black"
             android:fontFamily="sans-serif-black"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +46,7 @@
             android:text="Words given shape"
             android:textSize="20dp"
             android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -89,6 +91,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Learn"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         app:fontFamily="@font" />
 
@@ -118,6 +121,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Translate"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         app:fontFamily="@font" />
                     <ImageView
@@ -158,6 +162,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Practice"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         />
 
@@ -187,6 +192,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Information"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         />
 
@@ -194,6 +200,7 @@
                         android:id="@+id/airplane"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"
                         app:srcCompat="@drawable/info" />
                 </RelativeLayout>

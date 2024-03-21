@@ -15,17 +15,18 @@
       android:layout_marginStart="20dp"
       android:layout_marginTop="20dp"
       android:layout_marginEnd="20dp"
+      android:textColor="@color/black"
       android:layout_marginBottom="20dp"
       android:text="@string/learn"
       android:padding="5dp"
       android:textSize="20dp" />
 
   <ImageView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:id="@+id/img"
-    android:layout_below="@+id/learninfo"
-    android:src="@drawable/asl"
+      android:layout_width="360dp"
+      android:layout_height="250dp"
+      android:id="@+id/img1"
+    android:src="@drawable/img"
+      android:layout_below="@+id/learninfo"
     android:layout_centerHorizontal="true"/>
 
   <TextView
@@ -34,9 +35,11 @@
       android:id="@+id/learnmore"
     android:text="Learn More"
     android:textSize="20dp"
-    android:layout_below="@+id/img"
+    android:layout_below="@+id/img1"
     android:layout_centerHorizontal="true"
       android:textStyle="bold"
+      android:background="@color/white"
+      android:textColor="@color/black"
     android:layout_marginTop="20dp"/>
 
 
